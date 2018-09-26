@@ -21,7 +21,7 @@ class Meta extends Model
     /**
      * {@inheritdoc}
      */
-    protected $table = 'meta';
+    protected $table = 'sitemeta';
 
     /**
      * {@inheritdoc}
