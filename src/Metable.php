@@ -24,9 +24,9 @@ trait Metable
     public static function bootMetable()
     {
         // delete all attached meta on deletion
-//         static::deleted(function (Model $model) {
-//             $model->purgeMeta();
-//         });
+        // static::deleted(function (Model $model) {
+        //     $model->purgeMeta();
+        // });
     }
 
     /**

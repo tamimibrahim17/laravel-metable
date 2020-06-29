@@ -52,6 +52,6 @@ class ModelHandler implements HandlerInterface
         // Fetch specific instances.
         list($class, $id) = explode('#', $value);
 
-        return with(new $class())->findOrFail($id);
+        return with(new $class())->find($id);
     }
 }

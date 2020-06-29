@@ -5,7 +5,7 @@ namespace Plank\Metable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Plank\Metable\DataType\Registry;
-
+use Watson\Rememberable\Rememberable;
 /**
  * Model for storing meta data.
  *
@@ -13,6 +13,7 @@ use Plank\Metable\DataType\Registry;
  */
 class Meta extends Model
 {
+    use Rememberable;
     /**
      * {@inheritdoc}
      */
